@@ -3,6 +3,7 @@
 ## Unreleased
 
 - **Flow dictation** *(macOS, GitHub build)* — hold a key anywhere on the Mac (right ⌥ by default, or right ⌘, right ⌃ or fn), speak, let go: your words are pasted where you type, like Wispr Flow. A small pill rests at the bottom of the screen while Flow dictation is on; when you speak it opens into Mochi and nine dots rising and falling with the graves and the aigus of your voice. Two quick taps keep it listening hands-free until the next tap; Esc cancels. Speech is recognised by the Mac (on-device when it can), and the clipboard gets back what it held after the paste. Off by default — Settings → Voice; it needs the Accessibility permission to see the key and paste
+- **Codex and Antigravity live diffs** *(Windows and Linux)* — supported file edits now appear in the ticker and automatically open the full review panel. Codex `apply_patch` hunks and Antigravity file-write/replace tools are shown per file, with syntax-coloured line changes, workspace and agent details, recent session activity, and an editor shortcut. Oversized or truncated hook payloads are bounded and omitted rather than shown as incomplete diffs.
 
 ## Android 0.2.0 — October 13, 2026
 
